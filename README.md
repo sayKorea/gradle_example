@@ -163,3 +163,7 @@ jar {
 ## dependency scope
   - compileOnly
     Spring Boot 의 AutoConfiguration 을 살펴보면, 모든 선택적 의존성에 Dependency Optional True 가 붙어 있는 것을 확인할 수 있음. Gradle 에서는 compileOnly 를 사용할 수 있음. 대부분의 선택적 의존성들은 Starter Pack 에 의하여 주입됨.
+    
+## Maven to Gradle
+	Maven 프로젝트를 Gradle 프로젝트로 변환
+	gradle init --type pom
